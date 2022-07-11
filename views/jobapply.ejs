@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('head') %>
+  <body>
+    <!--Header Section-->
+    <%- include('header') %>
+    <div class="applyjob">
+      <div class="applyjob-card">
+        <div class="applyjob-formdetails">
+          <div class="applyjob-formdetails-heading">
+            <h3>Aanvraag Formulier</h3>
+          </div>
+          <div class="applyjob-forminfo">
+            <div class="name">
+              Naam:
+              <div id="name-display"></div>
+            </div>
+            <div class="lastName">
+              Achternaam:
+              <div id="lastName-display"></div>
+            </div>
+            <div class="dirth-of-birth">
+              Geboortedatum:
+              <div id="dateofbirth-display"></div>
+            </div>
+            <div class="email">
+              E-mailadres:
+              <div id="email-display"></div>
+            </div>
+            <div class="job-opening">
+              Functie:
+              <div id="job-display"></div>
+            </div>
+          </div>
+        </div>
+        <div class="applyjob-text">
+          <p>
+            Indien de persoonlijke gegevens verkeerd zijn druk op wijzigen.<br />
+            Indien de functie door een storing verkeerd is <br />
+            probeer opnieuw te solliciteren. <br />Indien alles goed is druk op
+            Akkoord
+          </p>
+        </div>
+        <div class="applyjob-ctn">
+          <a href="succes" class="applyjob-btn applyjob-btn-green">Akkoord</a>
+          <a href="#" id="detailschange" class="applyjob-btn">Wijzigen</a>
+        </div>
+      </div>
+      <div class="applyjob-change">
+        <!--------------------------->
+        <%- include('applyjobchange') %>
+      </div>
+    </div>
+    <!--Scripts-->
+    <%- include('script') %>
+  </body>
+</html>

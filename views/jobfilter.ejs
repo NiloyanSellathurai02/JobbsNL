@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('head') %>
+  <body>
+    <!--Header Section-->
+    <%- include('header') %>
+    <div class="filterjob--hero">
+      <div class="filterjob--hero-container">
+        <div class="filterjob--hero-heading">
+          <h2>Opzoek naar een baan ?</h2>
+        </div>
+        <div class="filterjob--hero-input">
+          <div class="filterjob--hero-inputs">
+            <input
+              type="text"
+              name="Keyword"
+              id="keyword"
+              placeholder="Functie of trefwoord"
+              class="filterjob--hero-inputfields"
+            />
+          </div>
+          <div class="filterjob--hero-inputs">
+            <input
+              type="text"
+              name="Location"
+              id="location"
+              placeholder="Locatie"
+              class="filterjob--hero-inputfields"
+            />
+          </div>
+          <div class="filterjob--hero-inputs">
+            <input
+              type="text"
+              name="experience"
+              id="experience"
+              placeholder="Aantal jaar werkervarring"
+              class="filterjob--hero-inputfields"
+            />
+          </div>
+          <div class="filterjob--hero-inputs">
+            <select
+              name="work"
+              id="work"
+              class="filterjob--hero-inputfields-select"
+              placeholder="Selecteer welke dienstverband"
+            >
+              <option value="ZZP">ZZP</option>
+              <option value="ZZP">Loondienst</option>
+            </select>
+          </div>
+          <div class="filterjob--hero-inputs">
+            <input
+              type="text"
+              name="Username"
+              id="username-rg"
+              placeholder="Gebruikersnaam"
+              class="filterjob--hero-inputfields"
+            />
+          </div>
+          <div class="filterjob--hero-inputs">
+            <input
+              type="password"
+              name="password"
+              id="password-rg"
+              placeholder="Wachtwoord"
+              class="filterjob--hero-inputfields"
+            />
+          </div>
+        </div>
+        <div class="filterjob--hero-ctn">
+          <input type="submit" value="Zoek Nu" class="register--hero-btn" />
+        </div>
+      </div>
+    </div>
+    <!--Footer Section-->
+    <%- include('footer') %>
+  </body>
+</html>

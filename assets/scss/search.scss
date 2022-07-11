@@ -1,0 +1,44 @@
+.search--container {
+  background-image: linear-gradient(to bottom, #464646e0, #ffd10384),
+    url("/images/search-bg.jpg");
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.search--inputfield {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search--heading-primary {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: white;
+}
+.search--input-job {
+  padding: 1rem 2rem;
+  border: 1px solid #16163f;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search--input-location {
+  padding: 1rem 3rem;
+  border: 1px solid #16163f;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search--submit-btn {
+  background-color: #ffd103;
+  color: #16163f;
+  padding: 1rem 2rem;
+  border: 1px solid #16163f;
+  font-size: 1rem;
+  cursor: pointer;
+}

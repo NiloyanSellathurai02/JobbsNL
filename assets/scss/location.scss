@@ -1,0 +1,20 @@
+.location-container {
+  height: 85vh;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.location-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.google-maps {
+  background-color: aqua;
+  width: 50rem;
+  height: 20rem;
+}

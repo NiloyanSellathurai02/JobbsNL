@@ -1,0 +1,28 @@
+@import "header";
+@import "hero";
+@import "search";
+@import "location";
+@import "footer";
+@import "login";
+@import "register";
+@import "filterjob";
+@import "jobgallery";
+@import "jobcard";
+@import "applyjob";
+@import "changedetails";
+@import "applysucces";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #f5f5f5;
+}

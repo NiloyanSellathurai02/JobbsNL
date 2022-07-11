@@ -1,0 +1,44 @@
+<% const dienstVerband = 'ZZP' %>
+<!---->
+<% const salaris = 2900 %>
+<!---->
+<% const title = 'UI / UX Designer' %>
+<!---->
+<% const jobSkills = ['UI' , 'UX' , 'Adobe' , 'Figma'] %>
+<div class="job--card">
+  <div class="job--card-container">
+    <div class="job--card-items-1">
+      <div class="job--card-employment">
+        <!------------------------->
+        <%- dienstVerband %>
+      </div>
+      <div class="job--card-salary">
+        <!------------------------->
+        € <%-salaris %> / P.M
+      </div>
+    </div>
+    <div class="job--card-items">
+      <div class="job--card-title">
+        <h3><%- title %></h3>
+      </div>
+    </div>
+    <div class="job--card-items-3">
+      <% jobSkills.map((skill)=> { %>
+      <div class="job--card-skills"><%- skill %></div>
+      <% }) %>
+    </div>
+    <div class="job--card-items">
+      <div class="job--card-description">
+        <p>
+          Ga als UX Designer aan de slag in een van de twee nieuwe design teams
+          van een Rotterdamse digital agency bedrijf
+        </p>
+      </div>
+    </div>
+    <div class="job--card-items-6">
+      <div class="job--card-ctn">
+        <a href="apply">Sollicteer</a>
+      </div>
+    </div>
+  </div>
+</div>

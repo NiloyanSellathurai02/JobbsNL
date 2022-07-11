@@ -1,0 +1,33 @@
+.hero--section {
+  padding: 2rem;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &-heading-primary {
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  &-register-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #16163f;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  &-ctn-register {
+    margin-top: 1rem;
+  }
+
+  &-img {
+    height: 20rem;
+  }
+}

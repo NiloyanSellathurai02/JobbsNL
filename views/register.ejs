@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('head') %>
+  <body>
+    <!--Header Section-->
+    <%- include('header') %>
+    <div class="register--hero">
+      <div class="register--hero-container">
+        <div class="register--hero-heading">
+          <h2>Persoonlijke Gegevens</h2>
+        </div>
+        <div class="register--hero-input">
+          <div class="register--hero-inputs">
+            <input
+              type="text"
+              name="Name"
+              id="name"
+              placeholder="Naam"
+              class="register--hero-inputfields"
+            />
+          </div>
+          <div class="register--hero-inputs">
+            <input
+              type="text"
+              name="Lastname"
+              id="lastname"
+              placeholder="Achternaam"
+              class="register--hero-inputfields"
+            />
+          </div>
+          <div class="register--hero-inputs">
+            <input
+              type="text"
+              name="Date-of-birth"
+              id="dateofbirth"
+              placeholder="Geboortedatum bijv: 07-01-2001"
+              class="register--hero-inputfields"
+            />
+          </div>
+          <div class="register--hero-inputs">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="register--hero-inputfields"
+            />
+          </div>
+          <div class="register--hero-inputs">
+            <input
+              type="text"
+              name="Username"
+              id="username-rg"
+              placeholder="Gebruikersnaam"
+              class="register--hero-inputfields"
+            />
+          </div>
+          <div class="register--hero-inputs">
+            <input
+              type="password"
+              name="password"
+              id="password-rg"
+              placeholder="Wachtwoord"
+              class="register--hero-inputfields"
+            />
+          </div>
+        </div>
+        <div class="regsiter--hero-ctn">
+          <input type="submit" value="Registreer" class="register--hero-btn" />
+        </div>
+      </div>
+    </div>
+    <!--footer Section-->
+    <%- include('footer') %>
+  </body>
+</html>

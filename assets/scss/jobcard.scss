@@ -1,0 +1,59 @@
+.job--card {
+  padding: 1rem;
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
+
+  &-container {
+    height: 13rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &-items-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-employment {
+    border-radius: 1rem;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid black;
+  }
+
+  &-items-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  &-skills {
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+  }
+
+  &-description {
+    font-size: 0.8rem;
+  }
+
+  &-title {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  &-ctn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border: 2px solid #16163f;
+    background-color: #ffd203;
+    cursor: pointer;
+  }
+
+  &-ctn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+}

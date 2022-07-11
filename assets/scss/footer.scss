@@ -1,0 +1,40 @@
+.footer--container {
+  height: 20rem;
+  background-color: #16163f;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  color: white;
+  padding: 1.3rem;
+  border-top: 4px solid #ffd203;
+}
+
+.footer--items {
+  width: 15rem;
+  padding: 1rem;
+}
+
+.footer--links {
+  padding: 2rem;
+}
+
+.footer--links a {
+  color: white;
+}
+
+.footer--contact {
+  padding: 1rem;
+}
+
+.footer--contact p {
+  padding: 0.1rem;
+}
+
+.footer-bottom {
+  background-color: #16163f;
+  color: white;
+  text-align: center;
+  border-top: 4px solid #ffd203;
+  padding: 1rem;
+}
