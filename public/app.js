@@ -11,3 +11,7 @@ const menuModal = document.getElementById("header--menu-moadal");
 const openModalMenu = () => {
   menuModal.style.visibility = "visible";
 };
+
+const closeMenu = () => {
+  menuModal.style.visibility = "hidden";
+};
