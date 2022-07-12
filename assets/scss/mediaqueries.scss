@@ -11,6 +11,7 @@
     width: 100vw;
     background-color: #ffd203;
     padding: 1rem;
+    display: block;
 
     &-container {
       display: flex;
@@ -23,11 +24,17 @@
     }
 
     &-menu {
-      height: 80vh;
+      height: 100%;
       width: 100%;
+      background-color: #16163f;
+    }
+
+    &-menu-items {
+      text-decoration: none;
+      font-size: 1.5rem;
       background-color: #ffd203;
-      position: relative;
-      visibility: hidden;
+      padding: 0.5rem 1rem;
+      color: black;
     }
   }
 

@@ -9,9 +9,9 @@ const menuModal = document.getElementById("header--menu-moadal");
 // });
 
 const openModalMenu = () => {
-  menuModal.style.visibility = "visible";
+  menuModal.style.display = "block";
 };
 
 const closeMenu = () => {
-  menuModal.style.visibility = "hidden";
+  menuModal.style.display = "none";
 };

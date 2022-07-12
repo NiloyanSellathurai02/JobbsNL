@@ -41,6 +41,12 @@
     font-weight: bold;
     color: white; }
 
+.header--mobile {
+  display: none; }
+
+.header--mobile-menu {
+  display: none; }
+
 .hero--section {
   padding: 2rem;
   height: 85vh;
@@ -409,7 +415,8 @@
     height: 5rem;
     width: 100vw;
     background-color: #ffd203;
-    padding: 1rem; }
+    padding: 1rem;
+    display: block; }
     .header--mobile-container {
       display: flex;
       justify-content: space-between;
@@ -417,11 +424,15 @@
     .header--mobile-logo-img {
       height: 3rem; }
     .header--mobile-menu {
-      height: 80vh;
+      height: 100%;
       width: 100%;
+      background-color: #16163f; }
+    .header--mobile-menu-items {
+      text-decoration: none;
+      font-size: 1.5rem;
       background-color: #ffd203;
-      position: relative;
-      visibility: hidden; }
+      padding: 0.5rem 1rem;
+      color: black; }
   .header--mobile-menu {
     padding: 1.5rem;
     text-align: center; }
