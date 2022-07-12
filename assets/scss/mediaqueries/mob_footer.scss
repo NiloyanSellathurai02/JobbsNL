@@ -1,0 +1,45 @@
+@media screen and (max-width: 800px) {
+  .footer--container {
+    height: 40rem;
+    background-color: #16163f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 1.3rem;
+    border-top: 4px solid #ffd203;
+    text-align: center;
+  }
+
+  .footer--items {
+    width: 15rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .footer--links {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .footer--links a {
+    color: white;
+  }
+
+  .footer--contact {
+    padding: 1rem;
+  }
+
+  .footer--contact p {
+    padding: 0.1rem;
+  }
+
+  .footer-bottom {
+    background-color: #16163f;
+    color: white;
+    text-align: center;
+    border-top: 4px solid #ffd203;
+    padding: 1rem;
+  }
+}

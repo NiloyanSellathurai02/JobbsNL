@@ -125,9 +125,11 @@
   margin-top: 1.5rem; }
 
 .google-maps {
-  background-color: aqua;
   width: 50rem;
   height: 20rem; }
+
+.google-maps-mobile {
+  display: none; }
 
 .footer--container {
   height: 20rem;
@@ -476,6 +478,92 @@
     .hero--section-img {
       margin-top: 5rem;
       height: 10rem; } }
+
+@media screen and (max-width: 800px) {
+  .search--container {
+    background-image: linear-gradient(to bottom, #464646e0, #ffd10384), url("/images/search-bg.jpg");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0.5rem; }
+  .search--inputfield {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .search--heading-primary {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: white; }
+  .search--input-job {
+    padding: 1rem 2rem;
+    border: 1px solid #16163f;
+    font-size: 1rem;
+    cursor: pointer; }
+  .search--input-location {
+    padding: 1rem 2rem;
+    border: 1px solid #16163f;
+    font-size: 1rem;
+    cursor: pointer; }
+  .search--submit-btn {
+    background-color: #ffd103;
+    color: #16163f;
+    padding: 1rem 5.8rem;
+    border: 1px solid #16163f;
+    font-size: 1rem;
+    cursor: pointer; } }
+
+@media screen and (max-width: 800px) {
+  .location-container {
+    height: 80vh;
+    text-align: center;
+    padding: 2rem;
+    width: 100%; }
+  .location-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem; }
+  .google-maps {
+    width: 30rem;
+    height: 20rem;
+    display: none; }
+  .google-maps-mobile {
+    display: block; } }
+
+@media screen and (max-width: 800px) {
+  .footer--container {
+    height: 40rem;
+    background-color: #16163f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 1.3rem;
+    border-top: 4px solid #ffd203;
+    text-align: center; }
+  .footer--items {
+    width: 15rem;
+    padding: 1rem;
+    text-align: center; }
+  .footer--links {
+    padding: 2rem;
+    text-align: center; }
+  .footer--links a {
+    color: white; }
+  .footer--contact {
+    padding: 1rem; }
+  .footer--contact p {
+    padding: 0.1rem; }
+  .footer-bottom {
+    background-color: #16163f;
+    color: white;
+    text-align: center;
+    border-top: 4px solid #ffd203;
+    padding: 1rem; } }
 
 * {
   margin: 0;
