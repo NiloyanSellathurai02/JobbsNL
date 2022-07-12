@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+  .header--top {
+    display: none;
+  }
+
+  .header--main {
+    display: none;
+  }
+  .header--mobile {
+    height: 5rem;
+    width: 100vw;
+    background-color: #ffd203;
+    padding: 1rem;
+
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-logo-img {
+      height: 4rem;
+    }
+
+    &-menu {
+      height: 80vh;
+      width: 100%;
+      background-color: #ffd203;
+      position: relative;
+      visibility: hidden;
+    }
+  }
+
+  .header--mobile-menu {
+    padding: 1rem;
+    text-align: center;
+
+    ul {
+      list-style: none;
+    }
+    &-container {
+      display: flex;
+      justify-content: center;
+    }
+    &-close-btn {
+      display: flex;
+      justify-content: flex-end;
+    }
+    &-close-btn-img {
+      height: 2rem;
+    }
+    &-menu-list {
+    }
+  }
+}

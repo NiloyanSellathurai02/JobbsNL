@@ -37,4 +37,48 @@
       <a href="login" class="header--main-ctn">Login</a>
     </div>
   </div>
+
+  <div class="header--mobile">
+    <div class="header--mobile-container">
+      <div class="header--mobile-logo">
+        <img src="/images/logo.png" class="header--mobile-logo-img" />
+      </div>
+      <div class="header--mobile-menuBtn" onclick="openModalMenu()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36.612"
+          height="27.541"
+          viewBox="0 0 36.612 27.541"
+        >
+          <path
+            id="Icon_ionic-md-menu"
+            data-name="Icon ionic-md-menu"
+            d="M6.25,40.041H42.862v-4.59H6.25Zm0-11.475H42.862v-4.59H6.25Zm0-16.066v4.59H42.862V12.5Z"
+            transform="translate(-6.25 -12.5)"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="header--mobile-menu" id="header--menu-moadal">
+    <div class="header--mobile-menu-close-btn">
+      <img
+        src="/images/cancel.png"
+        alt="Close-Button"
+        class="header--mobile-menu-close-btn-img"
+      />
+    </div>
+    <div class="header--mobile-menu-container">
+      <div class="header--mobile-menu-list">
+        <ul>
+          <li class="header--main-menu-li-item">
+            <a href="homepage" class="header--main-menu-items">Home</a>
+          </li>
+          <li class="header--main-menu-li-item">
+            <a href="jobfilter" class="header--main-menu-items">Vacatures</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </header>
