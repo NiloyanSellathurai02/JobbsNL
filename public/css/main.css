@@ -597,6 +597,42 @@
       cursor: pointer;
       border: 2px solid white; } }
 
+@media screen and (max-width: 800px) {
+  .filterjob--hero {
+    height: 80vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .filterjob--hero-container {
+      height: 30rem;
+      width: 25rem;
+      background-color: #ffd203;
+      padding: 1rem; }
+    .filterjob--hero-heading {
+      text-align: center; }
+    .filterjob--hero-input {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr; }
+    .filterjob--hero-inputfields {
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      border: 2px solid black; }
+    .filterjob--hero-inputfields-select {
+      padding: 0.5rem 3.4rem;
+      margin-top: 1rem;
+      border: 2px solid black;
+      text-align: start; }
+    .filterjob--hero-btn {
+      background-color: #16163f;
+      color: white;
+      padding: 0.5rem 2rem;
+      border-radius: 2rem;
+      cursor: pointer;
+      border: 2px solid white; } }
+
 * {
   margin: 0;
   padding: 0;
