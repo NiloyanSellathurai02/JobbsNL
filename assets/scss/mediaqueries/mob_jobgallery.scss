@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+  .jobgallery--container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2.5rem;
+  }
+}

@@ -1,17 +1,17 @@
-"use strict";
-
-const changeBtn = document.getElementById("detailschange");
-const changeForm = document.getElementById("change-detailsarea");
 const menuModal = document.getElementById("header--menu-moadal");
-// changeBtn.addEventListener("click", () => {
-//   console.log("Change Now.....");
-//   changeForm.style.visibility = "visible";
-// });
+
+const changeDetail = document.querySelector(".changedetails--hero");
 
 const openModalMenu = () => {
   menuModal.style.display = "block";
 };
-
 const closeMenu = () => {
   menuModal.style.display = "none";
 };
+
+const changeDetails = () => {
+  console.log("Het werkt");
+  changeDetail.style.visibility = "visible";
+};
+
+console.log("Hello");

@@ -126,11 +126,15 @@
 
 .google-maps {
   width: 50rem;
-  height: 20rem; }
+  height: 20rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .google-maps-mobile {
   width: 25rem;
-  display: none; }
+  display: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .footer--container {
   height: 20rem;
@@ -184,7 +188,9 @@
     display: flex;
     justify-content: center;
     align-items: space-between;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .login--hero-heading {
     font-size: 1.3rem;
     padding-bottom: 2rem; }
@@ -225,7 +231,9 @@
     height: 20rem;
     width: 40rem;
     background-color: #ffd203;
-    padding: 1rem; }
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .register--hero-heading {
     text-align: center; }
   .register--hero-input {
@@ -255,7 +263,9 @@
     height: 20rem;
     width: 40rem;
     background-color: #ffd203;
-    padding: 1rem; }
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .filterjob--hero-heading {
     text-align: center; }
   .filterjob--hero-input {
@@ -277,7 +287,9 @@
     padding: 0.5rem 2rem;
     border-radius: 2rem;
     cursor: pointer;
-    border: 2px solid white; }
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .jobgallery--container {
   display: flex;
@@ -289,7 +301,9 @@
   padding: 1rem;
   height: 20rem;
   width: 20rem;
-  background-color: white; }
+  background-color: white;
+  box-shadow: 0 1px 3px #00000097, 0 1px 2px #00000097;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .job--card-container {
     height: 13rem;
     width: 18rem;
@@ -298,6 +312,8 @@
   .job--card-items-1 {
     display: flex;
     justify-content: space-between; }
+  .job--card-salary {
+    font-weight: bold; }
   .job--card-employment {
     border-radius: 1rem;
     padding: 0.3rem 0.5rem;
@@ -349,7 +365,9 @@
     width: 25rem;
     height: 12rem;
     border-radius: 0.5rem;
-    border: 1px solid black; }
+    border: 1px solid black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.671), 0 1px 2px rgba(0, 0, 0, 0.808);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .applyjob-change {
     height: 20rem;
     width: 35rem; }
@@ -380,7 +398,9 @@
     height: 17rem;
     width: 38rem;
     background-color: #ffd203;
-    padding: 1rem; }
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .changedetails--hero-heading {
     text-align: center; }
   .changedetails--hero-input {
@@ -397,7 +417,9 @@
     padding: 0.5rem 2rem;
     border-radius: 2rem;
     cursor: pointer;
-    border: 2px solid white; }
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .succes {
   height: 70vh;
@@ -632,6 +654,14 @@
       border-radius: 2rem;
       cursor: pointer;
       border: 2px solid white; } }
+
+@media screen and (max-width: 800px) {
+  .jobgallery--container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2.5rem; } }
 
 * {
   margin: 0;
