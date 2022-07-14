@@ -42,6 +42,10 @@
     cursor: pointer;
   }
 
+  &-menu-items:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.671), 0 1px 2px rgba(0, 0, 0, 0.808);
+  }
+
   &-ctn {
     cursor: pointer;
     text-decoration: none;
@@ -52,6 +56,10 @@
     display: inline-block;
     font-weight: bold;
     color: white;
+  }
+
+  &-ctn:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.671), 0 1px 2px rgba(0, 0, 0, 0.808);
   }
 }
 
